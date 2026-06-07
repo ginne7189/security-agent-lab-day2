@@ -1,5 +1,11 @@
 # Day 2 — MCP · 보안 도구 자동화
 
+> ⚠️ **이 가이드는 전체 모노레포(security-agent-lab) 기준 CLI 실습 설명입니다.**
+> 단독 Day 저장소에서는 README의 `streamlit run app.py`(버튼 클릭 실습)만 쓰면 됩니다.
+> `check_env.py`·`scripts/`·`orchestrator/`·`mcp_servers/` 는 모노레포에만 있습니다(이 저장소에는 없음).
+> `agents/`·`course/mini_labs/`·`policies/`·`sample_app/` 명령은 이 저장소에서도 그대로 동작합니다.
+
+
 ## 오늘의 목표
 - 도구(함수) 호출 개념과 "Raw JSON / Report 분리" 패턴을 이해한다.
 - MCP security-tools 로 보안 도구를 실행하고 결과를 파싱한다.
